@@ -1,6 +1,28 @@
+-- Testing section start --
+{{ section.settings.text }}
+-- Testing section end --
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "testing section 01",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "html",
+      "label": "text",
+      "id": "text"
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "testing section 01"
+    }
+  ]
+}
 {% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
