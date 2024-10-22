@@ -9,6 +9,12 @@
  */
 {
   "sections": {
+    "testing_section_01_QptxXV": {
+      "type": "testing-section-01",
+      "settings": {
+        "text": "<p>paragraph text</p>\n<span style=\"font-size: 11px;\">\nsmaller text</span>"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -80,6 +86,7 @@
     }
   },
   "order": [
+    "testing_section_01_QptxXV",
     "image_banner",
     "featured_collection"
   ]
